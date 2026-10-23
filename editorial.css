@@ -7,3 +7,5 @@
 .portrait{object-position:center 35%}
 
 .honors>.national-scholarship{display:block;flex-basis:100%;font-size:25px;font-weight:700;color:var(--fg);padding:14px 0 20px}.honors>.national-scholarship:before{display:none}.english-summary{font-size:14px;color:var(--muted);margin-top:25px;line-height:1.8}
+
+.cv-section .honors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 26px;padding:8px 0}.cv-section .honors>span,.cv-section .honors>.national-scholarship{display:block;font-size:15px;font-weight:500;color:var(--fg);padding:15px 0;border-bottom:1px solid var(--line);line-height:1.6}.cv-section .honors>span:before{display:none}@media(max-width:540px){.cv-section .honors{grid-template-columns:1fr}}
